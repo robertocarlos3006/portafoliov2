@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página web profesional de Amaro Rivera">
+  <meta name="author" content="Amaro Rivera">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Bienvenido a la página web de Amaro Rivera</h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#social">Redes Sociales</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="main-content">
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <h3>Hola, mi nombre es Amaro Rivera y soy estudiante de tercer año del colegio 3medio B. Esta es mi primera página
+        web y espero que les guste. ¡Le puse mucho esfuerzo!</p>
+    </div>
+  </section>
+
+  <section id="social">
+    <div class="container">
+      <h2>Mis Redes Sociales</h2>
+      <ul>
+        <p><a href="https://www.instagram.com/locanee.65/"><img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" width="70"
+              alt="Instagram"></a></li>
+        <!-- Agrega más redes sociales aquí -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <table border="1">
+        <tr>
+          <td>From</td>
+          <td>python</td>
+          <td>JavaScript</td>
+          <td>Database</td>
+          <td>Concepts</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Django</td>
+          <td>Express</td>
+          <td>MySQL</td>
+          <td>AJAX</td>
+        </tr>
+        <tr>
+          <td>CSS3</td>
+          <td>Flask</td>
+          <td>Mongoose</td>
+          <td>MongoDB</td>
+          <td>OOP</td>
+        </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>Unittest</td>
+          <td>React</td>
+          <td></td>
+          <td>Rest</td>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Proyectos</h2>
+      <article>
+        <h3>Social Media App</h3>
+        <p>Una aplicación de redes sociales hecha en Python. <a href="#">Ver código</a> | <a href="#">Ver en línea</a>
+        </p>
+      </article>
+      <!-- Agrega aquí más proyectos -->
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form action="enviar_email.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Derechos de autor © 2024 - Amaro Rivera</p>
+    </div>
+  </footer>
+</body>
+
+</html>
